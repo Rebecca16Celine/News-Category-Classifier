@@ -1,0 +1,40 @@
+body {
+    background-color: #F5F7FA;
+    font-family: Arial, sans-serif;
+}
+
+.q-header {
+    background: linear-gradient(135deg, #6B4FA0, #4A9E6E) !important;
+}
+
+.q-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.primary-btn {
+    background: #6B4FA0 !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.secondary-btn {
+    background: #4A9E6E !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.metric-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6B4FA0;
+}
+
+.q-linear-progress {
+    height: 18px !important;
+    border-radius: 9px !important;
+}
