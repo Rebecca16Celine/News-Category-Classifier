@@ -16,3 +16,8 @@ data/raw/
 # IDE
 .vscode/
 .idea/
+# Large raw dataset (regenerate with prepare_data.py)
+data/News_Category_Dataset_v3.json
+
+# Keep the balanced CSV in git
+!data/news_balanced.csv
