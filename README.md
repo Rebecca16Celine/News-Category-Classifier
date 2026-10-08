@@ -117,3 +117,12 @@ Technologies Used
 - NumPy
 - Matplotlib
 - Seaborn
+
+## Experiments
+
+| Exp | What | Best result | Commit |
+|-----|------|-------------|--------|
+| 0 | Baseline | 79.5% acc, macro F1 0.7945 | 5b593e6 |
+| 1 | Preprocessing | F (stopwords+stemming) 79.2% acc | 2cf0ff2 |
+| 2 | Models (single split) | LinearSVC 78.4% acc, macro F1 0.783 | <hash> |
+| 3 | 5-fold CV | LinearSVC 0.7834 ± 0.0032, tied with SGD | <hash> |
