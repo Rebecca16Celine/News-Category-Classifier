@@ -1,22 +1,18 @@
-# Dataset files
-data/*.json
-data/*.csv
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
 venv/
-env/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore large model artifacts (we regenerate these)
+*.pkl
+*.pkl.bak
+
+# Ignore raw scrapes; we commit small processed CSVs
+data/raw/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
+# IDE
 .vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-bbc/
+.idea/
