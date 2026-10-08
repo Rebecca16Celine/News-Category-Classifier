@@ -1,0 +1,11 @@
+,business,entertainment,food_drink,health_wellness,parenting,politics,science_technology,sports,style_beauty,travel
+business,555,13,26,58,27,59,61,13,10,30
+entertainment,11,650,9,16,28,47,19,37,21,14
+food_drink,9,10,732,24,15,3,9,4,11,35
+health_wellness,52,17,35,601,49,22,33,16,10,18
+parenting,12,14,12,54,702,6,16,9,15,12
+politics,45,25,3,21,13,689,18,15,3,20
+science_technology,70,19,13,60,29,23,588,13,10,28
+sports,11,32,6,11,7,22,11,734,5,13
+style_beauty,4,23,11,30,7,2,11,5,740,19
+travel,23,8,40,21,13,11,21,13,9,693
