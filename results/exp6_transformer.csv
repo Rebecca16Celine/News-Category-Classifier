@@ -1,0 +1,2 @@
+model,train_rows,epochs,test_accuracy,test_f1_macro,train_time_s,device
+distilbert-base-multilingual-cased,8000,2,0.7831494954236095,0.7824993482065425,7683.8,cpu
