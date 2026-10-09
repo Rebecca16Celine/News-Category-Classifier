@@ -126,3 +126,7 @@ Technologies Used
 | 1 | Preprocessing | F (stopwords+stemming) 79.2% acc | 2cf0ff2 |
 | 2 | Models (single split) | LinearSVC 78.4% acc, macro F1 0.783 | <hash> |
 | 3 | 5-fold CV | LinearSVC 0.7834 ± 0.0032, tied with SGD | <hash> |
+| 4 | Tuning LinearSVC | CV 0.7872, test macro F1 0.7953 | committed |
+| 5 | Error analysis | 78.43%, business/health weakest | committed |
+| 6 | Multilingual DistilBERT | test macro F1 <SCORE> | this commit |
+| 6 | DistilBERT-multilingual (EN) | 0.7825 macro F1 (8k CPU subset) | <hash> |
